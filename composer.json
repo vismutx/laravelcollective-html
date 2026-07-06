@@ -1,5 +1,9 @@
 {
-    "name": "xenon/laravelhtml-collective",
+    "name": "vismutx/laravelcollective-html",
+    "replace": {
+        "xenon/laravelhtml-collective": "self.version",
+        "laravelcollective/html": "self.version"
+    },
     "description": "HTML and Form Builders for the Laravel Framework extends from Laravel Collective",
     "license": "MIT",
     "homepage": "https://laravelcollective.com",
